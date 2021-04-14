@@ -39,7 +39,7 @@ public class FeatureActivity extends Activity {
         setContentView(R.layout.activity_feature);
         ImageView mImageView = findViewById(R.id.iv_load_png);
         mImageView.setImageDrawable(getResources().getDrawable(R.mipmap.activity));
-        Toast.makeText(this, "from Feature 01: " + stringFromJNI(), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "from Feature 01: " + stringFromJNI() + " apple is: " + getResources().getString(R.string.apple), Toast.LENGTH_LONG).show();
     }
 
     /**

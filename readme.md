@@ -1,4 +1,4 @@
-## Dynamic Ability Demo
+# Dynamic Ability Demo
 
 
 ## Table of Contents
